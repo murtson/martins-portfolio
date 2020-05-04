@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,MAAM;CACjB;;AAED,AAAA,2BAA2B,CAAC;EACxB,MAAM,EAAE,KAAK;CAChB;;AAED,AAAA,8BAA8B,CAAC;EAC3B,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,cAAc,EAAE,KAAK;CAKxB;;AARD,AAKI,8BAL0B,CAK1B,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;CACZ",
+    "sources": [
+        "Competence_block.scss"
+    ],
+    "names": [],
+    "file": "Competence_block.css"
+}

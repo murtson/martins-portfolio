@@ -1,0 +1,78 @@
+.Card_expertise {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.Card_expertise:hover {
+    border: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.card_head--expertise {
+
+    i {
+        color: #1B72C8;
+        font-size: 5em;
+    }
+
+    @media screen and (max-width: 430px) {
+        i {
+            font-size: 4em;
+        }
+    }
+}
+
+.card_body--expertise {
+    padding: 0 15%;
+
+    .card_title--expertise {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 1.5em 0 0.5em 0;
+        color: rgba(0, 0, 0, 0.7);
+
+        @media screen and (max-width: 430px) {
+            font-size: 18px;
+        }
+    }
+
+    .card_text--expertise {
+        font-size: 18px;
+        margin-block-start: 0;
+        margin-block-end: 1.5em;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.7);
+        height: 81px;
+        overflow: hidden;
+
+        @media screen and (max-width: 430px) {
+            font-size: 14px;
+            height: 50px;
+        }
+    }
+
+    .card_button--expertise {
+        width: 150px;
+        height: 45px;
+        background-color: #A88AFC;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        border: 0;
+        border-radius: 10px;
+
+        @media screen and (max-width: 430px) {
+            width: 130px;
+            height: 35px;
+            font-size: 14px;
+        }
+    }
+}

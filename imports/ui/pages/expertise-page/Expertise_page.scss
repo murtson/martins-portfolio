@@ -1,0 +1,29 @@
+#Expertise_page {
+    min-height: 60vh;
+
+    @media screen and (max-width: 430px) {
+        padding: 0 8%;
+    }
+
+    padding: 0 15%;
+}
+
+.expertise_page__title_row {
+
+    .expertise_title_wrapper {
+        text-align: left;
+    }
+}
+
+
+.Expertise_page__content_row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 400px;
+    column-gap: 175px;
+    row-gap: 75px;
+
+    @media screen and (max-width: 430px) {
+        row-gap: 35px;
+    }
+}

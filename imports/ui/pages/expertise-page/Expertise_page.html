@@ -1,0 +1,15 @@
+<template name="Expertise_page">
+    <div id="Expertise_page">
+        <div class="expertise_page__title_row title_row">
+            <div class="expertise_title_wrapper section_wrapper width-100">
+                <h3 class="expertise_title page_title">AREAS OF EXPERTISE</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="Expertise_page__content_row content_row">
+            {{#each data in expertise_data}}
+            {{> Card_expertise props=data}}
+            {{/each}}
+        </div>
+    </div>
+</template>

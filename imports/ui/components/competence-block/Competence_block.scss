@@ -1,0 +1,19 @@
+.competence_block_title {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.competence_block_list_item {
+    margin: 5px 0;
+}
+
+.competence_block_body_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 336px;
+
+    ul {
+        margin: 0;
+    }
+}

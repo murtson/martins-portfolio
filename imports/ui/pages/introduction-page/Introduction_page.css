@@ -1,0 +1,39 @@
+#Introduction_page {
+  min-height: 60vh;
+  background: url("./svg/introduction-page-figure.svg") no-repeat top left;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 3fr;
+      grid-template-rows: 1fr 3fr;
+  padding: 0 15%;
+}
+
+@media screen and (max-width: 430px) {
+  #Introduction_page {
+    padding: 0 8%;
+  }
+}
+
+.introduction_page__title_row {
+  position: relative;
+}
+
+.introduction_page__title_row .introduction_title_wrapper {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+}
+
+.introduction_page__content_row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+.introduction_page__content_row .my_web_portfolio_svg {
+  height: 90%;
+  width: 90%;
+}
+/*# sourceMappingURL=Introduction_page.css.map */
