@@ -23,9 +23,23 @@
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 400px;
   -webkit-column-gap: 175px;
           column-gap: 175px;
-  row-gap: 75px;
+  row-gap: 35px;
 }
-/*# sourceMappingURL=Competence-education-page.css.map */
+
+.education_content_row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -webkit-column-gap: 175px;
+          column-gap: 175px;
+  row-gap: 35px;
+}
+
+.education_content_row .education_page_illustration {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=Competence_education_page.css.map */

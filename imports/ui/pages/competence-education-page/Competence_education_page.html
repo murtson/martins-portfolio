@@ -10,13 +10,21 @@
             <div class="competence_row">
                 <h4 class="competence_title section_title">COMPETENCE</h4>
                 <div class="competence_content_row">
-                    {{> Competence_block}}
-                    {{> Competence_block}}
-                    {{> Competence_block}}
+                    {{#each data in competenceData}}
+                    {{> Competence_block props=data}}
+                    {{/each}}
                 </div>
             </div>
             <div class="education_row">
                 <h4 class="competence_title section_title">EDUCATION</h4>
+                <div class="education_content_row">
+                    <div class="education_content_row__text_column">
+
+                    </div>
+                    <div class="education_content_row__illustration_column">
+                        <img class="education_page_illustration" src="./svg/education-pic.svg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

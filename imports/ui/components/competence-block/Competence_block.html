@@ -1,18 +1,19 @@
 <template name="Competence_block">
-    <div class="Competence_block">
-        <h5 class="competence_block_title">TITLE</h5>
-        <div class="competence_block_body_section">
-            <div class="competence_body__list_section">
+    <div class="competence_block">
+        <h5 class="competence_block__title">{{props.title}}</h5>
+        <div class="competence_block__body">
+            <div class="competence_body__list_column">
                 <ul>
-                    <li class="competence_block_list_item">JavaScript</li>
-                    <li class="competence_block_list_item">JavaScript</li>
-                    <li class="competence_block_list_item">JavaScript</li>
-                    <li class="competence_block_list_item">JavaScript</li>
+                    {{#each item in props.list_items}}
+                    <li class="competence_block__list_item">{{item}}</li>
+                    {{/each}}
                 </ul>
             </div>
 
-            <div class="competence_body__icon_section">
-                icons here
+            <div class="competence_body__icon_column">
+                {{#each icon in props.icons}}
+                <i class="{{icon}} icon_color--{{props.color}}"></i>
+                {{/each}}
             </div>
         </div>
     </div>
